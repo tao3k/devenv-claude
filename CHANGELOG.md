@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.5.0](https://github.com/tao3k/omni-devenv-fusion/compare/v1.4.0..v1.5.0) - 2026-01-01
+#### Miscellaneous Chores
+- (**version**) start v1.5.0 development - ([bf74b3d](https://github.com/tao3k/omni-devenv-fusion/commit/bf74b3d2365b407c851ced364978e6503aca4219)) - guangtao
+
+- - -
+
 ## [v1.2.0](https://github.com/tao3k/omni-devenv-fusion/compare/f869d85de10377cea9de095d67420719a4702704..v1.2.0) - 2025-12-31
 #### Features
 - (**mcp**) complete dual-server architecture with Phase 3 features - ([8f64a16](https://github.com/tao3k/omni-devenv-fusion/commit/8f64a1690ed4ef812920093fe148b92c42eef0ed)) - guangtao
