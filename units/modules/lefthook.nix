@@ -32,6 +32,11 @@ let
     "data" # JSONL examples, assets
     "version" # Version bump commits
     "claude" # Claude configuration
+    "git-workflow" # Git workflow documentation
+    "mcp-core" # Core MCP server modules
+    "inference" # AI inference engine
+    "orchestrator" # Orchestrator module
+    "git-ops" # Git operations tools
   ];
 
   # Define generator configurations
@@ -77,7 +82,6 @@ let
       gen =
         (config.omnibus.ops.mkNixago initConfigs.nixago-cog) initConfigs.cog.default
           {
-            hook.mode = "copy";
             data = {
               scopes = project-scopes;
               changelog = {
